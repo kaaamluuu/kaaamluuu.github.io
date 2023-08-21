@@ -158,8 +158,8 @@ const config = {
       'base-100': '#E3E3ED',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
-    },
-  },
-
+ / Optional Footer. Supports plain text or HTML.
+  
+};
 
 export default config;
