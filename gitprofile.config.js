@@ -42,14 +42,14 @@ const config = {
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
-    },*/
-  ],
-   certifications: [
+    },
+  ], */
+  certifications: [
     {
       name: 'Introduction to Cybersecurity',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2021',
-      link: 'https://www.credly.com/badges/e05b1436-03f8-4c62-a810-b625d0f995f9?source=linked_in_profile'
+      link: 'https://www.credly.com/badges/e05b1436-03f8-4c62-a810-b625d0f995f9?source=linked_in_profile',
     },
   ], 
   education: [
