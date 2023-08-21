@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'Shuuubhraj', // Your GitHub org/user name. (Required)
+    username: 'shuuubhraj', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -14,10 +14,9 @@ const config = {
     linkedin: 'shuuubhraj',
     twitter: 'shuuubhraj',
     instagram: 'shuuubhraj',
-    telegram: '',
     website: 'https://shubhraj.com',
-    phone: '+91 7485944604',
-    email: 'Contact@Shubhraj.com',
+    phone: '',
+    email: 'contact@shubhraj.com',
   },
   resume: {
     fileUrl:
@@ -25,10 +24,8 @@ const config = {
   },
   skills: [
     'Python',
-    'Aws',
-    'Linux',
+    'PHP',
     'MySQL',
-	'Google Cloud'
     'CSS',
   ],
   experiences: [
@@ -162,11 +159,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by <a 
-      class="text-primary" href="https://github.com/shuuubhraj"
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >@Shuuubhraj</a> with ❤️`,
+    >GitProfile</a> and ❤️`,
 };
 
 export default config;
