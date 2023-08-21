@@ -28,7 +28,7 @@ const config = {
     'MySQL',
     'CSS',
   ],
-  experiences: [
+  /* experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -42,28 +42,28 @@ const config = {
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
-    },
+    },*/
   ],
-  /* certifications: [
+   certifications: [
     {
-      name: 'Lorem ipsum',
+      name: 'Introduction to Cybersecurity',
       body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      year: 'March 2021',
+      link: 'https://www.credly.com/badges/e05b1436-03f8-4c62-a810-b625d0f995f9?source=linked_in_profile'
     },
-  ], */
+  ], 
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Winners English High School',
+      degree: 'HSE',
+      from: '2005',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'ITM (SLS) Baroda University (ITMBU)',
+      degree: 'CSE with Specialization in Cyber Security',
+      from: '2022',
+      to: '2025',
     },
   ],
 
@@ -86,8 +86,8 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -159,11 +159,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `Made by <a 
+      class="text-primary" href="https://github.com/shuuubhraj"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >@Shuuubhraj</a> with ❤️`,
 };
 
 export default config;
